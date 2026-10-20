@@ -1,6 +1,5 @@
 # Harshita Asija
 
-<!-- Animated purple header -->
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F0C29,50:302B63,100:8B5CF6&text=Harshita%20Asija&fontAlign=50&fontAlignY=38&fontSize=48&fontColor=FFFFFF&desc=Software%20Development%20%7C%20AI%2FML%20%7C%20Problem%20Solving&descAlign=50&descAlignY=58&descSize=17" />
@@ -35,11 +34,11 @@
 
 ## About Me
 
-I'm a third-year Information Technology undergraduate at **Maharaja Surajmal Institute of Technology, GGSIPU**.
+I'm a third-year Information Technology undergraduate at **Maharaja Surajmal Institute of Technology, GGSIPU**, with a strong interest in software development, problem-solving, and AI/ML.
 
-I enjoy solving problems, building web applications, and exploring how AI can be integrated into useful software. Through academic projects, internships, and hackathons, I've gained practical experience with frontend development, backend APIs, databases, and AI-powered applications.
+I enjoy building applications that combine thoughtful interfaces with practical backend functionality and AI capabilities. Through projects, internships, and hackathons, I've explored full-stack development, API integration, databases, and multi-agent systems.
 
-Currently, I'm focusing on strengthening my **Data Structures and Algorithms** skills while continuing to explore full-stack development and AI/ML.
+Currently, I'm focusing on strengthening my **Data Structures and Algorithms** skills while continuing to explore full-stack development and AI/ML through hands-on projects.
 
 ---
 
@@ -71,9 +70,7 @@ Currently, I'm focusing on strengthening my **Data Structures and Algorithms** s
 
 </div>
 
-**Core concepts:** Data Structures & Algorithms, Object-Oriented Programming, DBMS, Computer Networks, Operating Systems, REST APIs.
-
-**Additional tools:** Render.
+**Core Concepts:** Data Structures & Algorithms, Object-Oriented Programming, DBMS, Computer Networks, Operating Systems, REST APIs.
 
 ---
 
@@ -84,16 +81,23 @@ Currently, I'm focusing on strengthening my **Data Structures and Algorithms** s
 
 <br/>
 
-An AI-assisted recruitment platform designed to make candidate screening more meaningful than basic keyword matching.
+An AI-assisted recruitment platform that helps recruiters identify relevant candidates using semantic search, configurable multi-signal scoring, and explainable AI rather than relying solely on keyword matching.
 
-**Tech stack:** React, Vite, Tailwind CSS, FastAPI, Python, SQLite, ChromaDB, NVIDIA NIM
+**Tech Stack:** React, Vite, Tailwind CSS, FastAPI, Python, SQLite, ChromaDB, NVIDIA NIM, sentence-transformers.
 
-- Implemented semantic candidate retrieval and a configurable five-signal ranking engine.
-- Built workflows for resume and job-description ingestion, candidate ranking, and skill-gap analysis.
-- Added recruiter feedback, AI-generated interview questions, analytics, and CSV shortlist export.
-- Designed the system to support more than 50 candidate profiles.
+**Key Features:**
 
-[View Repository](https://github.com/HSVM-exe/Prism)
+- **Semantic Candidate Search:** Uses vector embeddings and ChromaDB to retrieve candidates based on contextual relevance between resumes and job descriptions.
+- **Five-Signal Ranking Engine:** Scores candidates across semantic similarity, skill depth, career trajectory, behavioral intent, and domain relevance, with configurable weights for different roles.
+- **Explainable Ranking:** Generates AI-assisted explanations for candidate scores to help recruiters understand why profiles rank higher.
+- **Resume and Job Description Parsing:** Supports PDF uploads, extracting relevant candidate information and job requirements for matching.
+- **Career and Skill Analysis:** Provides career trajectory insights, skill-gap heatmaps, and a candidate analytics dashboard.
+- **Bias Detection:** Analyses job descriptions for potentially exclusionary language and suggests more inclusive alternatives.
+- **Recruitment Workflow Tools:** Includes interview question generation, personalised outreach drafts, recruiter feedback-based reranking, candidate management, and CSV shortlist exports.
+
+The project explores how semantic retrieval, configurable scoring, and explainability can make AI-assisted recruitment more useful to human decision-makers.
+
+**Links:** [GitHub Repository](https://github.com/HSVM-exe/Prism) · [Live Demo](https://prism-three-orcin.vercel.app/)
 
 </details>
 
@@ -102,29 +106,51 @@ An AI-assisted recruitment platform designed to make candidate screening more me
 
 <br/>
 
-An AI-powered wealth advisory application that combines conversational financial assistance with planning for major life events.
+An AI-powered digital wealth advisory application developed for the IDBI Innovate Hackathon. It combines a conversational financial assistant, an animated avatar, predictive life-event planning, and interactive financial simulations.
 
-**Tech stack:** React, FastAPI, PostgreSQL, Redis, NVIDIA NIM, Docker
+**Tech Stack:** React, TypeScript, TanStack Start, TanStack Router, Tailwind CSS, FastAPI, PostgreSQL, Redis, NVIDIA NIM, Docker.
 
-- Developed life-event planning workflows for goals such as education, travel, and home purchases.
-- Built a savings simulator for exploring different financial scenarios.
-- Worked on multilingual voice interactions and authenticated AI-to-action workflows.
+**Key Features:**
+
+- **AI Wealth Advisory:** Provides conversational financial guidance with confidence scores, supporting financial signals, explanations, and alternative recommendations.
+- **Life-Event Prediction:** Helps users plan for milestones such as purchasing a home, international travel, education, weddings, and vehicle purchases using financial signals and savings patterns.
+- **Interactive Goal Simulator:** Allows users to adjust monthly savings and explore how different savings scenarios affect their financial goals and timelines.
+- **Voice-Enabled Avatar:** Features an animated assistant with selectable personas, voice interactions, and multilingual support.
+- **Explainable AI and Trust Ledger:** Records recommendations, their reasoning, alternatives considered, and relevant review flags to improve transparency.
+- **Action-Oriented Workflows:** Connects advisory recommendations with proposed banking actions and explicit user authentication and consent.
+- **Banking Integration Concepts:** Includes an integration console covering ISO 20022 payment messaging, Account Aggregator workflows, and AI safety monitoring.
+- **Backend Infrastructure:** Uses FastAPI, asynchronous PostgreSQL access, Redis, and Docker-based services to support application workflows.
+
+The project explores how conversational AI, financial planning tools, and transparent recommendation workflows can be brought together in a digital banking experience.
+
+**Links:** [GitHub Repository](https://github.com/HSVM-exe/IDBI_Bank_Project) · [Live Application](https://idbi-bank-project.vercel.app/) · [Backend](https://idbi-bank-project.onrender.com)
 
 </details>
 
 <details>
-<summary><b>BRAHMA — Biomedical Research Design Platform</b></summary>
+<summary><b>BRAHMA — Biomedical Research Study Design Platform</b></summary>
 
 <br/>
 
-A biomedical research platform focused on structuring study planning and protocol development through a guided workflow.
+A biomedical research platform designed to help researchers translate research questions and existing evidence into structured study plans and protocol documents through a guided workflow.
 
-**Tech stack:** Next.js, TypeScript, Tailwind CSS, FastAPI, PostgreSQL, SQLite, Ollama
+BRAHMA is part of a broader research platform that brings together literature management, knowledge discovery, and study design.
 
-- Contributed to a guided 13-step research study-design workflow.
-- Worked on features for PICO generation, hypothesis creation, sample-size planning, and evidence retrieval.
-- Integrated protocol export in Markdown, Word, and HTML formats.
-- Gained practical experience with frontend-backend integration, APIs, debugging, and research-data workflows.
+**Tech Stack:** Next.js, React, TypeScript, Tailwind CSS, FastAPI, Python, PostgreSQL, SQLite, Ollama.
+
+**Key Features:**
+
+- **Guided Study Design:** Implements a 13-step workflow for organising clinical and biomedical research study planning.
+- **Research Question Structuring:** Supports the development of PICO frameworks, helping structure the population, intervention, comparison, and outcome of a study.
+- **Hypothesis Development:** Assists in formulating research hypotheses and organising key study parameters.
+- **Sample-Size Planning:** Incorporates sample-size calculation workflows into the study-design process.
+- **Protocol Generation and Export:** Supports exporting structured research protocols into Markdown, Word, and HTML formats.
+- **Frontend–Backend Integration:** Connects interactive study-design interfaces with FastAPI services and research-data workflows.
+- **Research Platform Integration:** Fits within a larger system that includes scientific literature search, knowledge graphs, research-gap analysis, and hypothesis generation.
+
+Working on BRAHMA provided practical experience with full-stack development, API integration, debugging, and designing structured workflows for complex research processes.
+
+**Links:** [GitHub Repository](https://github.com/HarshitaAsija/CCRAS-suite)
 
 </details>
 
@@ -133,14 +159,25 @@ A biomedical research platform focused on structuring study planning and protoco
 
 <br/>
 
-A website auditing system developed for the Adobe National University Hackathon to assess website readiness through automated checks and specialized agent skills.
+A website auditing system developed for the Adobe National University Hackathon. It evaluates how easily AI systems can discover and understand website content, while identifying technical and user-experience issues that may affect engagement.
 
-**Tech stack:** Python, BeautifulSoup4, Gemini API, JSON-LD, unittest
+**Tech Stack:** Python, BeautifulSoup4, Google Gemini API, Schema.org JSON-LD, Python standard library, unittest.
 
-- Designed a four-skill pipeline with an orchestrator and specialized crawling, freshness, and engagement auditors.
-- Implemented 30 diagnostic checks and a score from 0 to 100, with evidence-backed JSON and Markdown reports.
-- Built a robots-aware crawler with sitemap and `llms.txt` support.
-- Added a deterministic offline mode and automated tests, with 98 passing tests.
+**Key Features:**
+
+- **Multi-Skill Agent Architecture:** Uses an orchestrator and three specialist skills for website crawling and structural analysis, content freshness and brand consistency, and on-site engagement auditing.
+- **AI Discoverability Checks:** Inspects crawl accessibility, robots.txt rules, XML sitemaps, metadata, canonical tags, and `llms.txt` support.
+- **Structured Data Analysis:** Examines Schema.org JSON-LD, heading hierarchies, breadcrumbs, and other signals that help machines interpret website content.
+- **Engagement Auditing:** Checks value propositions, form labels, calls to action, and FAQ-related structured data.
+- **AI Readiness Scoring:** Aggregates findings from 30 diagnostic checks into a score from 0 to 100, with severity-based deductions.
+- **Evidence-Backed Reporting:** Generates structured JSON and optional Markdown reports containing findings, supporting evidence, and suggested improvements.
+- **Dual Execution Modes:** Supports Gemini-powered semantic analysis and a deterministic offline mode that works without an API key.
+- **Controlled Crawling:** Uses robots-aware crawling, sitemap discovery, template-based page sampling, and execution-time limits.
+- **Automated Testing:** Includes a test suite with 98 passing tests.
+
+The project explores how specialised agent workflows and deterministic diagnostics can work together to produce actionable website audits.
+
+**Links:** [GitHub Repository](https://github.com/HarshitaAsija/multi-skill-agent)
 
 </details>
 
@@ -148,16 +185,17 @@ A website auditing system developed for the Adobe National University Hackathon 
 
 ## Experience
 
-### IT Intern — CCRAS, Ministry of AYUSH
+### IT Intern — Central Council for Research in Ayurvedic Sciences (CCRAS), Ministry of AYUSH
 
 *June 2026 – July 2026 | New Delhi*
 
-Worked on the CCRAS Intelligence Suite, a biomedical research platform supporting literature analysis, knowledge discovery, and clinical study-design workflows.
+Worked on a biomedical research platform integrating literature analysis, knowledge discovery, and clinical study-design workflows.
 
-- Developed and refined frontend workflows using Next.js, TypeScript, and Tailwind CSS.
-- Integrated application interfaces with FastAPI backend services and research-data workflows.
-- Contributed to the BRAHMA study-design module, including guided research-protocol workflows.
-- Worked on debugging, testing, and feature integration across frontend, APIs, and data layers.
+- Developed and refined frontend interfaces using Next.js, TypeScript, and Tailwind CSS.
+- Integrated frontend workflows with FastAPI backend services and research-data operations.
+- Contributed to BRAHMA's guided study-design module, including research protocol planning and document export workflows.
+- Worked on debugging, testing, API integration, and feature development across application layers.
+- Gained experience working with a multi-module codebase and collaborating on practical software development tasks.
 
 ---
 
@@ -166,56 +204,11 @@ Worked on the CCRAS Intelligence Suite, a biomedical research platform supportin
 - **Adobe National University Hackathon:** Reached Round 3, among the top 400 teams from over 300,000 registrations.
 - **Paytm Build With AI:** Selected among the top 60 teams from 1,800 teams and pitched the project in person at Paytm's Noida office.
 - **Fintechstico, NSUT:** Reached the top 9 finalist positions among 1,500+ participants.
-- Participated in 20+ hackathons and technical challenges, gaining experience in developing and presenting solutions under time constraints.
+- **Hackathons and Technical Challenges:** Participated in 20+ hackathons and technical challenges, gaining experience in collaborative development, problem-solving, and presenting solutions under time constraints.
 
 ---
 
-## GitHub Analytics
-
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=HarshitaAsija&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=E5E7EB" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshitaAsija&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB" />
-
-<br/><br/>
-
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshitaAsija&theme=tokyonight&hide_border=true&background=0D1117&stroke=A78BFA&ring=8B5CF6&fire=7C3AED&currStreakLabel=A78BFA" />
-
-</div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=HarshitaAsija&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" />
-
-</div>
-
----
-
-## Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/HarshitaAsija/HarshitaAsija/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
-
-</div>
-
----
-
-## Connect
-
-<div align="center">
-
-<a href="https://github.com/HarshitaAsija">GitHub</a> •
-<a href="https://www.linkedin.com/in/harshita-asija">LinkedIn</a> •
-<a href="https://leetcode.com/Harshita_Asija/">LeetCode</a> •
-<a href="mailto:asijaharshita@gmail.com">Email</a>
-
-<br/><br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=130&color=0:8B5CF6,50:302B63,100:0F0C29" />
 
