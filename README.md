@@ -1,5 +1,7 @@
 # Harshita Asija
 
+<!-- Animated purple header -->
+
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F0C29,50:302B63,100:8B5CF6&text=Harshita%20Asija&fontAlign=50&fontAlignY=38&fontSize=48&fontColor=FFFFFF&desc=Software%20Development%20%7C%20AI%2FML%20%7C%20Problem%20Solving&descAlign=50&descAlignY=58&descSize=17" />
@@ -7,7 +9,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=23&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=800&lines=Building+and+learning+through+projects;Exploring+software+development+and+AI%2FML;One+problem+and+one+project+at+a+time" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=23&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=800&lines=Curious+by+nature%2C+building+by+choice;Learning+through+code%2C+projects%2C+and+experiments;Turning+ideas+into+things+that+work" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -34,11 +36,15 @@
 
 ## About Me
 
-I'm a third-year Information Technology undergraduate at **Maharaja Surajmal Institute of Technology, GGSIPU**, with a strong interest in software development, problem-solving, and AI/ML.
+Hey! I'm Harshita, a third-year Information Technology student at **Maharaja Surajmal Institute of Technology, GGSIPU**.
 
-I enjoy building applications that combine thoughtful interfaces with practical backend functionality and AI capabilities. Through projects, internships, and hackathons, I've explored full-stack development, API integration, databases, and multi-agent systems.
+I like understanding how things work, figuring out how to make them better, and turning ideas into something people can actually use. That's what got me interested in software development, and over time, it's also led me to explore AI/ML and the ways it can make everyday applications more useful.
 
-Currently, I'm focusing on strengthening my **Data Structures and Algorithms** skills while continuing to explore full-stack development and AI/ML through hands-on projects.
+Most of what I've learned has come from building projects, experimenting with new technologies, participating in hackathons, and occasionally spending far too long figuring out why something isn't working.
+
+Right now, I'm working on getting better at **Data Structures and Algorithms**, strengthening my full-stack development skills, and exploring AI/ML one project at a time.
+
+This profile is a collection of things I've built, things I've learned, and a few things I'm still figuring out.
 
 ---
 
